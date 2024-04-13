@@ -6,7 +6,7 @@ const EmailSection = () => {
   return (
     <section id="contact " >
         <div className="flex flex-col items-center justify-center ">
-            <h4 className="mb-3 text-3xl font-bold text-white my-12">Let's Connect</h4>
+            <h4 className="mb-3 text-3xl font-bold text-white my-12">Let&apos;s Connect</h4>
             
            
             <div className = "socials flex flex-row gap-6">
