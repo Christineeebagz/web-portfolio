@@ -66,7 +66,7 @@ const AboutSection = () => {
         <div className="md:grid md:grid-cols-2 md:gap-x-4 gap-y-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
 
         <div className = "md:order-1 flex justify-end">
-            <Image src="/images/pic2.jpg" width={350} height={350} className="w-full h-auto md:w-auto" />
+            <Image alt="Profile Picture" src="/images/pic2.jpg" width={350} height={350} className="w-full h-auto md:w-auto" />
             </div>
             <div className = "md:order-2 mt-4 md:mt-0 text-left flex flex-col flex-grow">
                 <h2 className="text-4xl font-bold text-[#F3EEEA] mb-4">About Me</h2>
