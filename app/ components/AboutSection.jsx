@@ -9,7 +9,7 @@ const TAB_DATA = [
         id: "awards", 
         content: (
             <ul className="list-disc pl-2">
-                <li><span className="text-[#F5E8DD] font-bold  ">Invited Speaker</span> during the OSM Thome Scholars’ Leadership Summit - Cebu</li>
+                <li><span className="text-[#F5E8DD] font-bold  ">Invited Speaker</span> during the OSM Thome Scholars&apos; Leadership Summit - Cebu</li>
                 <li>UPCSG Hackathon 2024 <span className="text-[#F5E8DD] font-bold  ">Third Placer</span></li>
                 <li>USJR-SHS <span className="text-[#F5E8DD] font-bold  ">Josenian Pride of the Year</span> and <span className="text-[#F5E8DD] font-bold  ">Saint Augustine Debate Leadership</span> 2022 Awardee</li>
                 <li><span className="text-[#F5E8DD] font-bold  ">Core Adjudicator</span> of JPIA Borderlands Cup 2023 and CIDA Novice Cup 2023</li>
@@ -72,7 +72,7 @@ const AboutSection = () => {
                 <h2 className="text-4xl font-bold text-[#F3EEEA] mb-4">About Me</h2>
                
                 <p className="text-base lg:text-lg text-justify">
-                As a second-year BS Computer Science student, I'm passionate about crafting innovative projects and love joining hackathons. Alongside coding, I enjoy debate and aspire to eagerly collaborate with others who share my goal of bringing remarkable ideas to life.
+                As a second-year BS Computer Science student, I&apos;m passionate about crafting innovative projects and love joining hackathons. Alongside coding, I enjoy debate and aspire to eagerly collaborate with others who share my goal of bringing remarkable ideas to life.
                 </p>
               
           
