@@ -5,8 +5,9 @@ const projectsData = [
   {
     id: 3,
     title: "PANTRYPAL",
-    techstack: "React.js, Node.js, SQL, PHPMyAdmin",
-    description: "A pantry management system.",
+    techstack: "React.js, Node.js, CSS, SQL, PHPMyAdmin",
+    description:
+      "A grocery and food management system that allows for CRUD operations.",
     image: "/images/projects/pantrypal-project.png",
     gitUrl: "https://github.com/Christineeebagz/pantrypal",
     // previewUrl is omitted for this project
@@ -14,11 +15,22 @@ const projectsData = [
   {
     id: 4,
     title: "SNACKRIFICE",
-    techstack: "React.js, Node.js, SQL, PHPMyAdmin",
-    description: "A snack ordering system.",
+    techstack: "React.js, CSS",
+    description:
+      "A snack ordering system designed as a virtual vending machine.",
     image: "/images/projects/snackrifice-project.png",
-    gitUrl: "https://github.com/Christineeebagz/snackrifice",
+    gitUrl: "https://github.com/J-RuriAugusto/CS-141",
     previewUrl: "https://snackrifice.vercel.app",
+  },
+  {
+    id: 5,
+    title: "Personal Web Portfolio",
+    techstack: "Next.js",
+    description:
+      "A responsive portfolio to showcase skills, projects, and achievements.",
+    image: "/images/projects/personal-portfolio.png",
+    gitUrl: "https://github.com/Christineeebagz/web-portfolio",
+    previewUrl: "https://christine-bagazin.vercel.app",
   },
   {
     id: 1,
