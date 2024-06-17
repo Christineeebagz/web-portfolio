@@ -3,6 +3,24 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
   {
+    id: 3,
+    title: "PANTRYPAL",
+    techstack: "React.js, Node.js, SQL, PHPMyAdmin",
+    description: "A pantry management system.",
+    image: "/images/projects/pantrypal-project.png",
+    gitUrl: "https://github.com/Christineeebagz/pantrypal",
+    // previewUrl is omitted for this project
+  },
+  {
+    id: 4,
+    title: "SNACKRIFICE",
+    techstack: "React.js, Node.js, SQL, PHPMyAdmin",
+    description: "A snack ordering system.",
+    image: "/images/projects/snackrifice-project.png",
+    gitUrl: "https://github.com/Christineeebagz/snackrifice",
+    previewUrl: "https://snackrifice.vercel.app",
+  },
+  {
     id: 1,
     title: "NOTES WEB APPLICATION",
     techstack: "JavaScript, CSS",
@@ -21,24 +39,6 @@ const projectsData = [
     image: "/images/projects/project2.png",
     gitUrl: "https://github.com/Christineeebagz/compscicollections",
     previewUrl: "https://christineeebagz.github.io/compscicollections/",
-  },
-  {
-    id: 3,
-    title: "PANTRYPAL",
-    techstack: "React.js, Node.js, SQL, PHPMyAdmin",
-    description: "A pantry management system.",
-    image: "/images/projects/project3.png",
-    gitUrl: "https://github.com/Christineeebagz/pantrypal",
-    // previewUrl is omitted for this project
-  },
-  {
-    id: 4,
-    title: "SNACKRIFICE",
-    techstack: "React.js, Node.js, SQL, PHPMyAdmin",
-    description: "A snack ordering system.",
-    image: "/images/projects/project4.png",
-    gitUrl: "https://github.com/Christineeebagz/snackrifice",
-    // previewUrl is omitted for this project
   },
 ];
 
