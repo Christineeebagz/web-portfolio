@@ -6,8 +6,7 @@ const projectsData = [
     id: 3,
     title: "PANTRYPAL",
     techstack: "React.js, Node.js, CSS, SQL, PHPMyAdmin",
-    description:
-      "A grocery and food management system that allows for CRUD operations.",
+    description: "A food management system that allows for CRUD operations.",
     image: "/images/projects/pantrypal-project.png",
     gitUrl: "https://github.com/Christineeebagz/pantrypal",
     // previewUrl is omitted for this project
@@ -37,7 +36,7 @@ const projectsData = [
     title: "NOTES WEB APPLICATION",
     techstack: "JavaScript, CSS",
     description:
-      "A web application designed for organizing and managing personal notes",
+      "Notes web-app designed for organizing and managing personal notes",
     image: "/images/projects/project1.png",
     gitUrl: "https://github.com/Christineeebagz/notes-app",
     previewUrl: "https://notes-app-seven-lovat.vercel.app",
