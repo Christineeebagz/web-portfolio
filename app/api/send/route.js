@@ -1,6 +1,6 @@
 // import { EmailTemplate } from '../../../components/EmailTemplate';
 import { NextResponse } from "next/server";
-import { Resend } from "resend";
+// import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const fromEmail = process.env.FROM_EMAIL;
@@ -13,10 +13,9 @@ export async function POST() {
       subject: "Hello World",
       react: (
         <>
-            <p>Email Body</p>
+          <p>Email Body</p>
         </>
-      )
-      
+      ),
     });
 
     return NextResponse.json(data);
