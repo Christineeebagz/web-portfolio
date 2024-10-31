@@ -1,7 +1,4 @@
 import React from "react";
-import GithubIcon from "../../public/github-icon.svg";
-import LinkedinIcon from "../../public/linkedin.svg";
-import InstaIcon from "../../public/instagram.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -14,14 +11,19 @@ const EmailSection = () => {
            
             <div className = "socials flex flex-row gap-6">
                 <Link href="https://github.com/Christineeebagz">
-                    <Image className ="w-8" src={GithubIcon} alt ="Github Icon" />
+                     <Image width="100" height="100"className="w-8" src="/github-icon.svg" alt="Github Icon" />
                 </Link>
                 <Link href="https://www.linkedin.com/in/christine-mae-bagazin-851a2427a/">
-                    <Image className ="w-8" src={LinkedinIcon} alt ="Linkedin Icon"  />
+                <Image width="100" height="100" className="w-8" src="/linkedin.svg" alt="Linkedin Icon" />
                 </Link>
                 <Link href="https://www.instagram.com/christinebagzzz/">
-                    <Image className ="w-8" src={InstaIcon} alt ="Instag Icon"  />
+                <Image width="100" height="100" className="w-8" src="/instagram.svg" alt="Instagram Icon" />
+
                 </Link>
+
+                
+
+
             </div>
             <div>
             <p className="underline mt-2 mb-4">chrisbagazin@gmailcom</p>

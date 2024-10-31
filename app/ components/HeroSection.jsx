@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 
 
@@ -10,16 +10,16 @@ const HeroSection = () => {
   <section>
     <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm-text-left">       
-            <h1 className="text-col mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold s" style={{ color: '#F3EEEA' }}>
+            <h1 className="text-col mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold s" style={{ color: "#F3EEEA" }}>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F3EEEA] to-[#F3EEEA] ">
-                    Hello, I'm {" "}
+                    Hello, I&apos;m {" "}
                 </span>
                 <br></br>
                 <TypeAnimation
       sequence={[
-        'Christine',
+        "Christine",
         1000, 
-        'a Computer Science Student',
+        "a Computer Science Student",
         500
       ]}
       wrapper="span"
