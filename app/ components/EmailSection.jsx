@@ -4,32 +4,71 @@ import Image from "next/image";
 
 const EmailSection = () => {
   return (
-    <section id="contact " >
-        <div className="flex flex-col items-center justify-center ">
-            <h4 className="mb-3 text-3xl font-bold text-white my-12">Let's Connect</h4>
-            
-           
-            <div className = "socials flex flex-row gap-6">
-                <Link href="https://github.com/Christineeebagz">
-                     <Image width="100" height="100"className="w-8" src="/github-icon.svg" alt="Github Icon" />
-                </Link>
-                <Link href="https://www.linkedin.com/in/christine-mae-bagazin-851a2427a/">
-                <Image width="100" height="100" className="w-8" src="/linkedin.svg" alt="Linkedin Icon" />
-                </Link>
-                <Link href="https://www.instagram.com/christinebagzzz/">
-                <Image width="100" height="100" className="w-8" src="/instagram.svg" alt="Instagram Icon" />
+    // <<<<<<< Updated upstream
+    <section id="contact ">
+      <div className="flex flex-col items-center justify-center ">
+        <h4 className="mb-3 text-3xl font-bold text-white my-12">
+          Let&apos;s Connect
+        </h4>
 
-                </Link>
+        <div className="socials flex flex-row gap-6">
+          <Link href="https://github.com/Christineeebagz">
+            <Image
+              width="100"
+              height="100"
+              className="w-8"
+              src="/github-icon.svg"
+              alt="Github Icon"
+            />
+          </Link>
+          <Link href="https://www.linkedin.com/in/christine-mae-bagazin-851a2427a/">
+            <Image
+              width="100"
+              height="100"
+              className="w-8"
+              src="/linkedin.svg"
+              alt="Linkedin Icon"
+            />
+          </Link>
+          <Link href="https://www.instagram.com/christinebagzzz/">
+            <Image
+              width="100"
+              height="100"
+              className="w-8"
+              src="/instagram.svg"
+              alt="Instagram Icon"
+            />
+          </Link>
+        </div>
+        <div>
+          <p className="underline mt-2 mb-4">chrisbagazin@gmailcom</p>
+        </div>
+      </div>
+      {/* 
+=======
+    <section id="contact ">
+      <div className="flex flex-col items-center justify-center ">
+        <h4 className="mb-3 text-3xl font-bold text-white my-12">
+          Let&apos;s Connect
+        </h4>
 
-                
-
-
-            </div>
-            <div>
-            <p className="underline mt-2 mb-4">chrisbagazin@gmailcom</p>
-            </div>
-            </div>
-        {/* 
+        <div className="socials flex flex-row gap-6">
+          <Link href="https://github.com/Christineeebagz">
+            <Image className="w-8" src={GithubIcon} alt="Github Icon" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/christine-mae-bagazin-851a2427a/">
+            <Image className="w-8" src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+          <Link href="https://www.instagram.com/christinebagzzz/">
+            <Image className="w-8" src={InstaIcon} alt="Instag Icon" />
+          </Link>
+        </div>
+        <div>
+          <p className="underline mt-2 mb-4">chrisbagazin@gmailcom</p>
+        </div>
+      </div>
+      {/* 
+>>>>>>> Stashed changes
             <div>
                 <form className = "flex flex-col ">
                 <div classname="mb-6">
@@ -80,7 +119,7 @@ const EmailSection = () => {
                 </form>
             </div> */}
     </section>
-  )
-}
+  );
+};
 
-export default EmailSection
+export default EmailSection;
