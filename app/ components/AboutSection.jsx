@@ -208,6 +208,7 @@ const AboutSection = () => {
         <div className="md:order-1 flex justify-end">
           <Image
             src="/images/pic2.jpg"
+            alt="Self museum picture with the Spolarium at the back"
             width={350}
             height={350}
             className="w-full h-auto md:w-auto"
