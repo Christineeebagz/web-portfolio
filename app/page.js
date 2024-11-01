@@ -1,10 +1,10 @@
-
 import HeroSection from "./ components/HeroSection";
 import Navbar from "./ components/Navbar";
 import AboutSection from "./ components/AboutSection";
 import ProjectsSection from "./ components/ProjectsSection";
 import EmailSection from "./ components/EmailSection";
 import Footer from "./ components/Footer";
+import Slider from "./ components/Slider";
 
 export default function Home() {
   return (
@@ -12,12 +12,12 @@ export default function Home() {
       <Navbar />
       <div class="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
-        <ProjectsSection/>
-        <AboutSection/> 
+        <Slider />
+        <ProjectsSection />
+        <AboutSection />
         <EmailSection />
-        </div>
-        <Footer />
+      </div>
+      <Footer />
     </main>
   );
 }
- 
