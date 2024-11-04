@@ -44,7 +44,7 @@ const HeroSection = () => {
                  hover:bg-[#EBE3D5] hover:text-[#776B5D] border mt-3"
             >
               <a
-                href="https://docs.google.com/document/d/1fxjuCp4kTZYEcS3HsInbc5LnczcQLonI/edit?usp=sharing&ouid=102282849302979369837&rtpof=true&sd=true"
+                href="https://drive.google.com/file/d/1LzggULp4eQ9fJTNkCvLvfXCobZq8CSFA/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
