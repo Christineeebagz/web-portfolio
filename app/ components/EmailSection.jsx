@@ -1,55 +1,16 @@
 import React from "react";
+import GithubIcon from "../../public/github-icon.svg";
+import LinkedinIcon from "../../public/linkedin.svg";
+import InstaIcon from "../../public/instagram.svg";
 import Link from "next/link";
 import Image from "next/image";
 
 const EmailSection = () => {
   return (
-    // <<<<<<< Updated upstream
     <section id="contact ">
       <div className="flex flex-col items-center justify-center ">
         <h4 className="mb-3 text-3xl font-bold text-white my-12">
-          Let&apos;s Connect
-        </h4>
-
-        <div className="socials flex flex-row gap-6">
-          <Link href="https://github.com/Christineeebagz">
-            <Image
-              width="100"
-              height="100"
-              className="w-8"
-              src="/github-icon.svg"
-              alt="Github Icon"
-            />
-          </Link>
-          <Link href="https://www.linkedin.com/in/christine-mae-bagazin-851a2427a/">
-            <Image
-              width="100"
-              height="100"
-              className="w-8"
-              src="/linkedin.svg"
-              alt="Linkedin Icon"
-            />
-          </Link>
-          <Link href="https://www.instagram.com/christinebagzzz/">
-            <Image
-              width="100"
-              height="100"
-              className="w-8"
-              src="/instagram.svg"
-              alt="Instagram Icon"
-            />
-          </Link>
-        </div>
-        <div>
-          <p className="underline mt-2 mb-4">chrisbagazin@gmailcom</p>
-        </div>
-      </div>
-      {/* 
-=======
-    <section id="contact ">
-      <div className="flex flex-col items-center justify-center ">
-        <h4 className="mb-3 text-3xl font-bold text-white my-12">
-          Let&apos;s Connect
+          Let's Connect
         </h4>
 
         <div className="socials flex flex-row gap-6">
@@ -68,7 +29,6 @@ const EmailSection = () => {
         </div>
       </div>
       {/* 
->>>>>>> Stashed changes
             <div>
                 <form className = "flex flex-col ">
                 <div classname="mb-6">

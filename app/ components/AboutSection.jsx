@@ -110,15 +110,15 @@ const AboutSection = () => {
           <Image
             src="/images/pic2.jpg"
             alt="Self museum picture with the Spolarium at the back"
-            width={350}
-            height={350}
-            className="w-full h-auto md:w-auto"
+            width={450}
+            height={450}
+            className="w-full h-auto md:w-auto rounded-lg"
           />
         </div>
         <div className="md:order-2 mt-4 md:mt-0 text-left flex flex-col flex-grow">
           <h2 className="text-4xl font-bold text-[#F3EEEA] mb-4">About Me</h2>
           <p className="text-base lg:text-lg text-justify">
-            As a second-year BS Computer Science student, I&apos;m passionate
+            As a third-year BS Computer Science student, I&apos;m passionate
             about crafting innovative projects and love joining hackathons.
             Alongside coding, I enjoy debate and aspire to eagerly collaborate
             with others who share my goal of bringing remarkable ideas to life.
