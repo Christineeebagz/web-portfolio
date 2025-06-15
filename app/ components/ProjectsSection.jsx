@@ -3,6 +3,25 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
   {
+    id: 6,
+    title: "CLOTHESMINDED",
+    techstack: "React Native, Appwrite, Expo Go, Kling API",
+    description: "A virtual wardrobe that enables virtual try-ons.",
+    image: "/images/projects/clothesminded_project.png",
+    gitUrl: "https://github.com/leidc024/ClothesMinded",
+    // previewUrl is omitted for this project
+  },
+  {
+    id: 7,
+    title: "FIRETRACK",
+    techstack: "Vue.js, Tailwind.css, Firebase",
+    description:
+      "A web app that aids firefighters in real-time tracking & operations .",
+    image: "/images/projects/firetrack_project.png",
+    // gitUrl is omitted for this project
+    previewUrl: "https://firetrack-plum.vercel.app",
+  },
+  {
     id: 3,
     title: "PANTRYPAL",
     techstack: "React.js, Node.js, CSS, SQL, PHPMyAdmin",
